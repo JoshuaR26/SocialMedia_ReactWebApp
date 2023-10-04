@@ -47,7 +47,6 @@
 
 .shareOptions {
     display: flex;
-    margin-left: 30px;
 }
 
 .shareOption {
@@ -55,11 +54,13 @@
     align-items: center;
     margin: 10px;
     margin-right: 80px;
+    cursor: pointer;
 }
 
 .shareOptionText {
     font-size: 15px;
     color: gray;
+    margin-left: 5px;
 }
 
 .shareButton {
@@ -71,4 +72,5 @@
     font-weight: bold;
     font-size: 15px;
     margin-right: 20px;
+    cursor:pointer;
 }
