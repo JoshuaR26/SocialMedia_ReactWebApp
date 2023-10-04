@@ -30,6 +30,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .sidebarItemIcon {
@@ -62,7 +63,7 @@
     align-items: center;
     margin-bottom: 20px;
     border-radius: 10px;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .sidebarFriend:hover {
