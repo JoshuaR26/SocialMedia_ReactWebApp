@@ -13,6 +13,7 @@
 
 .shareTop{
     display: flex;
+    margin: 20px;
     align-items: center;
 }
 
@@ -39,17 +40,35 @@
 
 .shareBottom {
     display: flex;
+    margin: 20px;
     align-items: center;
     justify-content: space-between;
 }
 
 .shareOptions {
     display: flex;
+    margin-left: 30px;
 }
 
 .shareOption {
     display: flex;
     align-items: center;
     margin: 10px;
-    margin-right: 50px;
+    margin-right: 80px;
+}
+
+.shareOptionText {
+    font-size: 15px;
+    color: gray;
+}
+
+.shareButton {
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: rgb(64, 96, 251);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 20px;
 }
